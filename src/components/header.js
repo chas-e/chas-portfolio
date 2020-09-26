@@ -3,7 +3,7 @@ import PropTypes from "prop-types";
 import React from "react";
 import Image from "../components/image";
 
-const Header = ({ siteTitle, data }) => (
+const Header = ({ siteTitle }) => (
   <header
     style={{
       background: `#da2f47`,
@@ -42,4 +42,4 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header
+export default Header;
