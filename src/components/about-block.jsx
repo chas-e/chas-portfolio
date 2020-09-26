@@ -11,7 +11,7 @@ const AboutBlock = () => {
 
             <p>I am a member of a vibrant community in Baltimore city, and love the city’s lush green spaces and stunning waterfront views. I also enjoy saying hi to all of the pets out on walks with their humans.</p>
 
-            <img src="" alt="" />
+            <img src="src/images/headshot.png" alt="chas headshot" />
         </>
     );
 }
