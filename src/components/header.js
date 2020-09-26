@@ -30,11 +30,11 @@ const Header = ({ siteTitle }) => (
 
         </Link>
         <ol style={{ display: `flex`, justifyContent: `flex-end`, color: `white`, marginBottom: `1.45rem`, }}>
-          <li>About</li>
+          <li><a href="#about" className="navLink">About</a></li>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          <li>Projects</li>
+          <li><a href="#projects" className="navLink">Projects</a></li>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          <li>Contact</li>
+          <li><a href="#contact" className="navLink">Contact</a></li>
 
         </ol>
       </nav>

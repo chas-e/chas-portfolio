@@ -20,20 +20,20 @@ const IndexPage = () => (
       }
     }>
       <SEO title="chasengineering" />
-      <section id="intro" style={{ height: `100%`, }}>
+      <section id="intro" style={{ height: `100vmin`, }}>
         <h1> HELLO, my name is Charles (Chas) Eubanks.</h1>
         <h2>I am a dynamic & resourceful software engineer committed to building performant & elegant solutions for the web & beyond.</h2>
       </section>
 
-      <section id="about" style={{ height: `100%`, }}>
+      <section id="about" style={{ height: `100vmin`, }}>
         <AboutBlock />
       </section>
 
-      <section id="projects" style={{ height: `100%`, }}>
+      <section id="projects" style={{ height: `100vmin`, }}>
         <ProjectBlock />
       </section>
 
-      <section id="contact" style={{ height: `100%`, }}>
+      <section id="contact" style={{ height: `85vmin`, }}>
         <Contact />
       </section>
 

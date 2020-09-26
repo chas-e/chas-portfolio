@@ -1,0 +1,15 @@
+a {
+  color: #db2c44;
+}
+
+a:hover {
+  color: #e35b73;
+}
+
+.navLink {
+  color: white;
+}
+
+.navLink:hover {
+  color: #64747c;
+}
