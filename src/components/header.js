@@ -1,12 +1,14 @@
-import { Link } from "gatsby"
-import PropTypes from "prop-types"
-import React from "react"
+import { Link } from "gatsby";
+import PropTypes from "prop-types";
+import React from "react";
+import Image from "../components/image";
 
-const Header = ({ siteTitle }) => (
+const Header = ({ siteTitle, data }) => (
   <header
     style={{
-      background: `rebeccapurple`,
+      background: `#da2f47`,
       marginBottom: `1.45rem`,
+      border: `none`,
     }}
   >
     <div
@@ -16,7 +18,7 @@ const Header = ({ siteTitle }) => (
         padding: `1.45rem 1.0875rem`,
       }}
     >
-      <h1 style={{ margin: 0 }}>
+      <nav style={{ margin: 0, border: `none`, }}>
         <Link
           to="/"
           style={{
@@ -25,8 +27,9 @@ const Header = ({ siteTitle }) => (
           }}
         >
           {siteTitle}
+
         </Link>
-      </h1>
+      </nav>
     </div>
   </header>
 )

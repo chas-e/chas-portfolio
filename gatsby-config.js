@@ -1,8 +1,24 @@
 module.exports = {
   siteMetadata: {
-    title: `Chas Eubanks's Portfolio`,
-    description: `Welcome to my portfolio. Look around, Kick the tires... Let's start something GREAT!`,
+    title: `chasengineering`,
+    description: `charles eubanks is a dynamic & resourceful software engineer committed to building performant & elegant solutions for the web and beyond.`,
     author: `@chas-e`,
+    siteUrl: "https://www.chasengineering.dev",
+    social: [
+      {
+        name: "twitter",
+        url: "https://twitter.com/ChasEngineering",
+      },
+      {
+        name: "github",
+        url: "https://github.com/chas-e",
+      },
+      {
+        name: "linkedin",
+        url: "https://www.linkedin.com/in/charlespatrickeubanks/",
+      },
+
+    ],
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -18,17 +34,23 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `charles eubanks's portfolio`,
+        short_name: `chasengineering`,
         start_url: `/`,
-        background_color: `#663399`,
-        theme_color: `#663399`,
+        background_color: `#e8e3e3`,
+        theme_color: `#e8e3e3`,
         display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
+        icon: `src/images/chasengineering-icon.png`, // This path is relative to the root of the site.
+      },
+    },
+    {
+      resolve: `gatsby-plugin-typography`,
+      options: {
+        pathToConfigModule: `src/utils/typography`,
       },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
-    // `gatsby-plugin-offline`,
+    `gatsby-plugin-offline`,
   ],
 }
