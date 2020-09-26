@@ -1,7 +1,7 @@
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import React from "react";
-import Image from "../components/image";
+import Img from "gatsby-image";
 
 const Header = ({ siteTitle }) => (
   <header
@@ -29,6 +29,14 @@ const Header = ({ siteTitle }) => (
           {siteTitle}
 
         </Link>
+        <ol style={{ display: `flex`, justifyContent: `flex-end`, color: `white`, marginBottom: `1.45rem`, }}>
+          <li>About</li>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <li>Projects</li>
+          &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+          <li>Contact</li>
+
+        </ol>
       </nav>
     </div>
   </header>
