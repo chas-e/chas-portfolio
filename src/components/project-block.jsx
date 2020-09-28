@@ -1,8 +1,12 @@
 import React, { useEffect } from 'react';
 import Img from "gatsby-image";
-import queryData from "../utils/project-data-service";
+import { queryData } from "../utils/project-data-service";
 
 const ProjectBlock = () => {
+    useEffect(() => {
+        console.log("use effect is working");
+    });
+
     return (
         <>
             <table>

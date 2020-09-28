@@ -28,6 +28,8 @@ const IndexPage = () => (
         <h2>I am a dynamic & resourceful software engineer committed to building performant & elegant solutions for the web & beyond.</h2>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <EmailButton />
+        <SocMedia />
+        <EmailLink />
       </section>
 
       <section id="about" style={{ height: `100vmin`, }}>
