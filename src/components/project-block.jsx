@@ -1,13 +1,31 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import Img from "gatsby-image";
+import queryData from "../utils/project-data-service";
 
 const ProjectBlock = () => {
     return (
         <>
-            <h3>Rijksmuseum Image Viewer</h3>
-            <p>Description</p>
-            <p>Technologies Used</p>
-            <img src="src/images/rijksmuseum-results-page.png" alt="rijksmuseum results page" />
+            <table>
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Description</th>
+                        <th>Technologies</th>
+                        <th>Github Url</th>
+                        <th>Url</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                        <td>data</td>
+                    </tr>
+                </tbody>
+            </table>
+
         </>
     );
 }
