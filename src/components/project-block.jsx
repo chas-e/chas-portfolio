@@ -15,7 +15,7 @@ const ProjectBlock = () => {
                         <th>Title</th>
                         <th>Description</th>
                         <th>Technologies</th>
-                        <th>Github Url</th>
+                        <th>Github</th>
                         <th>Url</th>
                     </tr>
                 </thead>
