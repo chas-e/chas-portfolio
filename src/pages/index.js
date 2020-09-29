@@ -10,7 +10,6 @@ import AboutBlock from "../components/about-block";
 import ProjectBlock from "../components/project-block";
 import Contact from "../components/contact";
 import EmailButton from "../components/email-button";
-import { getQueryData } from "../utils/project-data-service";
 
 
 const IndexPage = () => (
