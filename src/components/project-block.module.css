@@ -1,0 +1,11 @@
+.projectList {
+    display: flex;
+    list-style: none;
+}
+
+.projectItem {
+    display: flex;
+    height: 100vmin;
+    width: 100vmin;
+    list-style: none;
+}

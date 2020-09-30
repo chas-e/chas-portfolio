@@ -16,13 +16,16 @@ const IndexPage = () => (
   <Layout>
     <div style={
       {
-        maxWidth: `400px`,
         marginBottom: `1.45rem`,
-        height: `100%`,
+        padding: `1.5rem`,
+        maxWidth: `600px`,
+        display: `flex`,
+        flexDirection: `column`,
+        justifyContent: `space-around`,
       }
     }>
       <SEO title="chasengineering" />
-      <section id="intro" style={{ height: `100vmin`, }}>
+      <section id="intro" style={{ minHeight: `100vmin`, }}>
         <h1> HELLO, my name is Charles (Chas) Eubanks.</h1>
         <h2>I am a dynamic & resourceful software engineer committed to building performant & elegant solutions for the web & beyond.</h2>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -31,15 +34,15 @@ const IndexPage = () => (
         <EmailLink />
       </section>
 
-      <section id="about" style={{ height: `100vmin`, }}>
+      <section id="about" style={{ minHeight: `100vmin`, }}>
         <AboutBlock />
       </section>
 
-      <section id="projects" style={{ height: `100vmin`, }}>
+      <section id="projects">
         <ProjectBlock />
       </section>
 
-      <section id="contact" style={{ height: `85vmin`, }}>
+      <section id="contact" style={{ minHeight: `88vmin`, }}>
         <Contact />
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         <EmailButton />
