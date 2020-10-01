@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "gatsby";
 import PropTypes from "prop-types";
 import Logo from "../images/chasengineering-icon-192x192.png";
-import Res from "../docs/charles-eubanks-résumé.pdf";
+import Res from "../docs/charles-res.pdf";
 
 const Header = ({ siteTitle }) => (
   <header
