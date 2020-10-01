@@ -20,7 +20,7 @@ const SocMedia = () => {
 
                 <li>
                     <a href="https://github.com/chas-e">
-                        <span aria-label="github link">
+                        <span role="img" aria-label="github link">
                             <img src={Github} alt="github mark"
                                 style={{
                                     maxWidth: `2rem`,
@@ -34,7 +34,7 @@ const SocMedia = () => {
                 </li>
                 <li>
                     <a href="https://www.linkedin.com/in/charlespatrickeubanks/">
-                        <span aria-label="linkedin link">
+                        <span role="img" aria-label="linkedin link">
                             <img src={LinkedIn} alt="linkedin logo"
                                 style={{
                                     maxWidth: `2.5rem`,
@@ -48,7 +48,7 @@ const SocMedia = () => {
                 </li>
                 <li>
                     <a href="https://twitter.com/ChasEngineering">
-                        <span aria-label="twitter link">
+                        <span role="img" aria-label="twitter link">
                             <img src={Twitter} alt="twitter logo"
                                 style={{
                                     width: `3rem`,

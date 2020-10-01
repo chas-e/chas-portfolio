@@ -8,7 +8,7 @@ const EmailButton = () => {
                     border: `solid #64747c`,
                     padding: `1rem`,
                 }}>
-                <span role="Img" aria-label="email link">✉️</span>  &nbsp; Get In Touch</a>
+                <span role="img" aria-label="email link">✉️</span>  &nbsp; Get In Touch</a>
         </div>
     );
 }

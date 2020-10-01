@@ -1,3 +1,37 @@
+# Welcome to my portfolio!
+
+## (I am very glad you are here)
+
+ ***This is a place for me to share my work and let you get to know me a bit.***
+
+ ## Story of this project
+ I created this site with Gatsby - it was my very first project with gatsby, and my second using react, so I did have a bit of a learning curve.
+
+ I started off sketching out a basic layout - I took inspiration from [Brittany Chiang's Portfolio](https://brittanychiang.com/).
+ 
+ I wanted a clean, simple, one-page site to help folks to see my work and contact me, if they like. 
+
+ Then I jumped into creating al of the various components. Styling took some time, and I definitely have some stretch goals - fixing the hyperlinks to each section, and adding some animations/ paginations to the various sections. 
+
+ ## Images of the Project
+
+ 
+
+ ## Technologies Used
+ GatsbyJs, React.js, JSX, CSS3 (lots of inline JS styling), react-helmet, the Github theme from Typography.js, and several more Gatsby plugins that I will be learning to optimize including Img, manifest, and offline plugins.
+
+ ## In the IceBox
+
+ I am hoping to flesh this site out into a full-fledged PWA over time, and as I gain skill and experience. I also want to set up animations with react spring to help the site come alive more/ add some visual interest. 
+
+
+
+
+
+
+
+
+#### Gatsby starter README below ⬇️
 <!-- AUTO-GENERATED-CONTENT:START (STARTER) -->
 <p align="center">
   <a href="https://www.gatsbyjs.com">

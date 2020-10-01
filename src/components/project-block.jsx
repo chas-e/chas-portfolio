@@ -35,25 +35,32 @@ const ProjectBlock = () => {
                 >
                     <a href="https://chas-e.github.io/rijksmuseum-image-viewer">
                         <div className="projectImage" id="rijksImgView">
-                            <img src={RijksImgView} alt="Rijks Results Page" />
+                            <span role="img" aria-label="Rijksmuseum Project Image and Link"> <img src={RijksImgView} alt="Rijks Results Page" />
+                            </span>
                         </div>
                     </a>
                     &nbsp; &nbsp; &nbsp;
                     <a href="https://speakerbox.herokuapp.com">
                         <div className="projectImage" id="spkrbx">
-                            <img src={Spkrbx} alt="Speakerbox Landing Page" />
+                            <span role="img" aria-label="SpeakerBox Project Image and Link">
+                                <img src={Spkrbx} alt="Speakerbox Landing Page" />
+                            </span>
                         </div>
                     </a>
                     &nbsp; &nbsp; &nbsp;
                     <a href="https://habit-zen.herokuapp.com">
                         <div className="projectImage" id="hbtZn">
-                            <img src={HbtZn} alt="Habit-Zen Landing Page" />
+                            <span role="img" aria-label="Habit-Zen Project Image and Link">
+                                <img src={HbtZn} alt="Habit-Zen Landing Page" />
+                            </span>
                         </div>
                     </a>
                     &nbsp; &nbsp; &nbsp;
                     <a href="https://pycasso-629.herokuapp.com">
                         <div className="projectImage" id="pycsso">
-                            <img src={Pycsso} alt="Pycasso Landing Page" />
+                            <span role="img" aria-label="Pycasso Project Image and Link">
+                                <img src={Pycsso} alt="Pycasso Landing Page" />
+                            </span>
                         </div>
                     </a>
                 </div>

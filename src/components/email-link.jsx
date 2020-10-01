@@ -5,7 +5,7 @@ const EmailLink = () => {
 
         <>
             <a href="mailto:charles@chasengineering.dev">
-                <span role="Img" aria-label="email link">✉️</span> &nbsp; charles@chasengineering.dev</a>
+                <span role="img" aria-label="email link">✉️</span> &nbsp; charles@chasengineering.dev</a>
         </>
 
     );
