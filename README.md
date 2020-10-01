@@ -11,11 +11,11 @@
  
  I wanted a clean, simple, one-page site to help folks to see my work and contact me, if they like. 
 
- Then I jumped into creating al of the various components. Styling took some time, and I definitely have some stretch goals - fixing the hyperlinks to each section, and adding some animations/ paginations to the various sections. 
+ Then I jumped into creating all of the various components. Styling took some time, and I definitely have some stretch goals - fixing the hyperlinks to each section, and adding some animations/ pagination for each sections. 
 
- ## Images of the Project
+ <!-- ## Images of the Project -->
 
- 
+
 
  ## Technologies Used
  GatsbyJs, React.js, JSX, CSS3 (lots of inline JS styling), react-helmet, the Github theme from Typography.js, and several more Gatsby plugins that I will be learning to optimize including Img, manifest, and offline plugins.
