@@ -42,7 +42,8 @@ module.exports = {
         background_color: `#e8e3e3`,
         theme_color: `#e8e3e3`,
         display: `minimal-ui`,
-        icon: `src/images/chasengineering-icon-512x512.png`, // This path is relative to the root of the site.
+        icon: `src/images/chasengineering-icon-512x512.png`,
+        purpose: `any maskable`, // This path is relative to the root of the site.
       },
     },
     {
