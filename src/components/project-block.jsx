@@ -1,16 +1,63 @@
 import React from 'react';
-import Img from "gatsby-image";
-import { graphql } from "gatsby";
+import RijksImgView from "../images/rijksmuseum-results-page.png";
+import Spkrbx from "../images/spkrbx-final.png";
+import HbtZn from "../images/habit-zen-final.png";
+import Pycsso from "../images/pycasso-gallery.png";
 import "./project-block.module.css";
 
 const ProjectBlock = () => {
     return (
         <>
             <h2>Here are some examples of my work:</h2>
-            <ul style={{ listStyle: `none`, }}>
-                {projItems}
-            </ul>
 
+            <div className="projBlock">
+                <ul
+                    style={{
+                        listStyle: `none`,
+                        display: `flex`,
+                        flexDirection: `row`,
+                        justifyContent: `space-evenly`,
+                        width: `100vmin`,
+                    }}
+                >
+                    {projItems}
+                </ul>
+                <div className="imgBlock"
+                    style={{
+                        display: `flex`,
+                        flexDirection: `row`,
+                        justifyContent: `space-evenly`,
+                        width: `100vmin`,
+                        height: `100vmin`,
+                        margin: `.5rem`,
+                        padding: `1.45rem`,
+                    }}
+                >
+                    <a href="https://chas-e.github.io/rijksmuseum-image-viewer">
+                        <div className="projectImage" id="rijksImgView">
+                            <img src={RijksImgView} alt="Rijks Results Page" />
+                        </div>
+                    </a>
+                    &nbsp; &nbsp; &nbsp;
+                    <a href="https://speakerbox.herokuapp.com">
+                        <div className="projectImage" id="spkrbx">
+                            <img src={Spkrbx} alt="Speakerbox Landing Page" />
+                        </div>
+                    </a>
+                    &nbsp; &nbsp; &nbsp;
+                    <a href="https://habit-zen.herokuapp.com">
+                        <div className="projectImage" id="hbtZn">
+                            <img src={HbtZn} alt="Habit-Zen Landing Page" />
+                        </div>
+                    </a>
+                    &nbsp; &nbsp; &nbsp;
+                    <a href="https://pycasso-629.herokuapp.com">
+                        <div className="projectImage" id="pycsso">
+                            <img src={Pycsso} alt="Pycasso Landing Page" />
+                        </div>
+                    </a>
+                </div>
+            </div>
         </>
     );
 }
@@ -51,13 +98,14 @@ const projectData = [
 ]
 
 const projItems = projectData.map((p, idx) => (
-    <ul key={idx} className="projectList"
+    <ul key={idx} className="projectList" id={`proj${idx + 1}`}
         style={{
             listStyle: `none`,
             border: `3px solid`,
-            margin: `1.45rem`,
+            margin: `.5rem`,
             padding: `1.45rem`,
             lineHeight: 1.5,
+
         }}>
         <li className="projectItem"><strong>Title:</strong> {p.title}</li>
         <li className="projectItem"><strong>Description:</strong> {p.description}</li>

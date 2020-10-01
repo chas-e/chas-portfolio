@@ -19,41 +19,46 @@ const SocMedia = () => {
             >
 
                 <li>
-                    <a href=""></a>
-                    <span aria-label="github link">
-                        <img src={Github} alt="github mark"
-                            style={{
-                                maxWidth: `2rem`,
-                                maxHeight: `2rem`,
-                                display: `flex`,
-                                flexDirection: `row`,
-                            }}
-                        />
-                    </span>
+                    <a href="https://github.com/chas-e">
+                        <span aria-label="github link">
+                            <img src={Github} alt="github mark"
+                                style={{
+                                    maxWidth: `2rem`,
+                                    maxHeight: `2rem`,
+                                    display: `flex`,
+                                    flexDirection: `row`,
+                                }}
+                            />
+                        </span>
+                    </a>
                 </li>
                 <li>
-                    <span aria-label="linkedin link">
-                        <img src={LinkedIn} alt="linkedin logo"
-                            style={{
-                                maxWidth: `2.5rem`,
-                                maxHeight: `2rem`,
-                                display: `flex`,
-                                flexDirection: `row`,
-                            }}
-                        />
-                    </span>
+                    <a href="https://www.linkedin.com/in/charlespatrickeubanks/">
+                        <span aria-label="linkedin link">
+                            <img src={LinkedIn} alt="linkedin logo"
+                                style={{
+                                    maxWidth: `2.5rem`,
+                                    maxHeight: `2rem`,
+                                    display: `flex`,
+                                    flexDirection: `row`,
+                                }}
+                            />
+                        </span>
+                    </a>
                 </li>
                 <li>
-                    <span aria-label="twitter link">
-                        <img src={Twitter} alt="twitter logo"
-                            style={{
-                                width: `3rem`,
-                                height: `3rem`,
-                                display: `flex`,
-                                flexDirection: `row`,
-                            }}
-                        />
-                    </span>
+                    <a href="https://twitter.com/ChasEngineering">
+                        <span aria-label="twitter link">
+                            <img src={Twitter} alt="twitter logo"
+                                style={{
+                                    width: `3rem`,
+                                    height: `3rem`,
+                                    display: `flex`,
+                                    flexDirection: `row`,
+                                }}
+                            />
+                        </span>
+                    </a>
                 </li>
 
 
