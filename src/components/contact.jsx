@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 
 const Contact = () => {
@@ -10,7 +10,7 @@ const Contact = () => {
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
         </>
-    );
+    )
 }
 
-export default Contact;
+export default Contact

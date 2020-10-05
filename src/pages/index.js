@@ -1,14 +1,14 @@
-import React from "react";
+import React from "react"
 
 
-import Layout from "../components/layout";
-import SEO from "../components/seo";
-import SocMedia from "../components/soc-media";
-import EmailLink from "../components/email-link";
-import AboutBlock from "../components/about-block";
-import ProjectBlock from "../components/project-block";
-import Contact from "../components/contact";
-import EmailButton from "../components/email-button";
+import Layout from "../components/layout"
+import SEO from "../components/seo"
+import SocMedia from "../components/soc-media"
+import EmailLink from "../components/email-link"
+import AboutBlock from "../components/about-block"
+import ProjectBlock from "../components/project-block"
+import Contact from "../components/contact"
+import EmailButton from "../components/email-button"
 
 
 const IndexPage = () => (
@@ -77,6 +77,6 @@ const IndexPage = () => (
 
     </div>
   </Layout>
-);
+)
 
-export default IndexPage;
+export default IndexPage

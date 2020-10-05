@@ -1,9 +1,8 @@
-import React from 'react';
-import RijksImgView from "../images/rijksmuseum-results-page.png";
-import Spkrbx from "../images/spkrbx-final.png";
-import HbtZn from "../images/habit-zen-final.png";
-import Pycsso from "../images/pycasso-gallery.png";
-import "./project-block.module.css";
+import React from 'react'
+import RijksImgView from "../images/rijksmuseum-results-page.png"
+import Spkrbx from "../images/spkrbx-final.png"
+import HbtZn from "../images/habit-zen-final.png"
+import Pycsso from "../images/pycasso-gallery.png"
 
 const ProjectBlock = () => {
     return (
@@ -66,7 +65,7 @@ const ProjectBlock = () => {
                 </div>
             </div>
         </>
-    );
+    )
 }
 
 const projectData = [
@@ -111,6 +110,6 @@ const projItems = projectData.map((p, idx) => (
         <li className="projectItem"><strong>Technologies:</strong> {p.technologies}</li>
         <li className="projectItem"><a href={p.github}>Github</a></li>
     </ul>
-));
+))
 
-export default ProjectBlock;
+export default ProjectBlock

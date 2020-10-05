@@ -1,4 +1,4 @@
-import React from "react";
+import React from "react"
 
 const EmailLink = () => {
     return (
@@ -8,7 +8,7 @@ const EmailLink = () => {
                 <span role="img" aria-label="email link">✉️</span> &nbsp; charles@chasengineering.dev</a>
         </>
 
-    );
+    )
 }
 
-export default EmailLink;
+export default EmailLink

@@ -1,8 +1,7 @@
-import React from 'react';
-import Img from "gatsby-image";
-import Github from "../images/GitHub-Mark-64px.png";
-import LinkedIn from "../images/LI-In-Bug.png";
-import Twitter from "../images/Twitter_Logo_Blue.svg";
+import React from 'react'
+import Github from "../images/GitHub-Mark-64px.png"
+import LinkedIn from "../images/LI-In-Bug.png"
+import Twitter from "../images/Twitter_Logo_Blue.svg"
 
 const SocMedia = () => {
     return (
@@ -64,7 +63,7 @@ const SocMedia = () => {
 
             </ul>
         </>
-    );
+    )
 }
 
-export default SocMedia;
+export default SocMedia

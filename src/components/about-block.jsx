@@ -1,5 +1,5 @@
-import React from 'react';
-import Headshot from "../images/headshot.png";
+import React from "react"
+import Headshot from "../images/headshot.png"
 
 
 const AboutBlock = () => {
@@ -20,7 +20,7 @@ const AboutBlock = () => {
             <p>I am a member of a vibrant community in Baltimore city, and love the city’s lush green spaces and stunning waterfront views. I have one fur baby named Trevor - a black and white rescue cat. I also enjoy saying hi to all of the pets out on walks with their humans around my block.</p>
 
         </>
-    );
+    )
 }
 
-export default AboutBlock;
+export default AboutBlock

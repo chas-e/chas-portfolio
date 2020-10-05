@@ -1,8 +1,8 @@
-import React from "react";
-import { Link } from "gatsby";
-import PropTypes from "prop-types";
-import Logo from "../images/chasengineering-icon-192x192.png";
-import Res from "../docs/charles-res.pdf";
+import React from "react"
+import { Link } from "gatsby"
+import PropTypes from "prop-types"
+import Logo from "../images/chasengineering-icon-192x192.png"
+import Res from "../docs/charles-res.pdf"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -68,7 +68,7 @@ const Header = ({ siteTitle }) => (
       </nav>
     </div>
   </header>
-);
+)
 
 Header.propTypes = {
   siteTitle: PropTypes.string,
@@ -78,4 +78,4 @@ Header.defaultProps = {
   siteTitle: ``,
 }
 
-export default Header;
+export default Header

@@ -1,4 +1,4 @@
-import React from 'react';
+import React from 'react'
 
 const EmailButton = () => {
     return (
@@ -10,7 +10,7 @@ const EmailButton = () => {
                 }}>
                 <span role="img" aria-label="email link">✉️</span>  &nbsp; Get In Touch</a>
         </div>
-    );
+    )
 }
 
-export default EmailButton;
+export default EmailButton
