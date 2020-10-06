@@ -2,7 +2,7 @@ import React from "react"
 import { Link } from "gatsby"
 import PropTypes from "prop-types"
 import Logo from "../images/chasengineering-icon-192x192.png"
-import Res from "../docs/charles-res.pdf"
+import Res from "../docs/charles-eubanks-resume.pdf"
 
 const Header = ({ siteTitle }) => (
   <header
@@ -11,7 +11,7 @@ const Header = ({ siteTitle }) => (
       marginBottom: `1.45rem`,
       border: `none`,
       width: `100%`,
-      height: `20vh`,
+      height: `22vh`,
       position: `fixed`,
     }}
   >
@@ -26,7 +26,7 @@ const Header = ({ siteTitle }) => (
     >
       <nav
         style={{
-          margin: 0,
+          margin: `0 auto`,
           border: `none`,
         }}
       >
@@ -40,7 +40,7 @@ const Header = ({ siteTitle }) => (
           <img src={Logo} alt="chasengineering logo"
             style={{
               maxWidth: `5rem`,
-              maxHeight: `10rem`,
+              maxHeight: `10 rem`,
             }}
           />
           &nbsp; &nbsp; &nbsp;
