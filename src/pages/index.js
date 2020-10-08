@@ -31,8 +31,10 @@ const IndexPage = () => (
           padding: `1.45rem`,
         }}
       >
-        <h1> HELLO, my name is Charles (Chas) Eubanks.</h1>
-        <h2>I am a dynamic & resourceful software engineer committed to building performant & elegant solutions for the web & beyond.</h2>
+        <h2> H &nbsp; E &nbsp; L &nbsp; L &nbsp; O &nbsp;,
+          <br />
+          my name is Charles (Chas) Eubanks.</h2>
+        <h3>I am a dynamic & resourceful software engineer committed to building performant & elegant solutions for the web & beyond.</h3>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 

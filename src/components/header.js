@@ -4,14 +4,17 @@ import PropTypes from "prop-types"
 import Logo from "../images/chasengineering-icon-192x192.png"
 import Res from "../docs/charles-eubanks-resume.pdf"
 
+import styles from "./header.module.scss"
+
 const Header = ({ siteTitle }) => (
   <header
+    className={styles.header}
     style={{
-      background: `#858282`,
+      backgroundColor: `RGBA(252, 252, 252, .85)`,
       marginBottom: `1.45rem`,
-      border: `none`,
+      // border: `none`,
       width: `100%`,
-      height: `22vh`,
+      height: `20vh`,
       position: `fixed`,
     }}
   >
@@ -27,44 +30,50 @@ const Header = ({ siteTitle }) => (
       <nav
         style={{
           margin: `0 auto`,
-          border: `none`,
+          // border: `none`,
         }}
       >
-        <Link
-          to="/"
-          style={{
-            color: `white`,
-            textDecoration: `none`,
-          }}
-        >
-          <img src={Logo} alt="chasengineering logo"
+        <h1>
+          <Link
+            to="/"
             style={{
-              maxWidth: `5rem`,
-              maxHeight: `10 rem`,
+              display: `flex`,
+              justifyContent: `space-evenly`,
+              textDecoration: `none`,
             }}
-          />
+          >
+            <img src={Logo} alt="chasengineering logo"
+              style={{
+                maxWidth: `5rem`,
+                maxHeight: `10 rem`,
+              }}
+            />
           &nbsp; &nbsp; &nbsp;
           {siteTitle}
 
-        </Link>
+          </Link>
+        </h1>
 
-        <ol
-          style={{
-            display: `flex`,
-            justifyContent: `flex-end`,
-            color: `white`,
-            marginBottom: `1.45rem`,
-            alignContent: `flex-end`,
-          }}
-        >
-          <li><a href="#about" className="navLink">About</a></li>
+        <h3>
+          <ul
+            style={{
+              display: `flex`,
+              justifyContent: `flex-end`,
+              color: `white`,
+              marginBottom: `1.45rem`,
+              alignContent: `flex-end`,
+              listStyle: `none`,
+            }}
+          >
+            <li><a href="#about" className="navLink">About</a></li>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           <li><a href="#projects" className="navLink">Projects</a></li>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           <li><a href="#contact" className="navLink">Contact</a></li>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           <li><a href={Res} className="navLink">Résumé</a></li>
-        </ol>
+          </ul>
+        </h3>
       </nav>
     </div>
   </header>
