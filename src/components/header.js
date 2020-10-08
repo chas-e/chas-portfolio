@@ -12,73 +12,59 @@ const Header = ({ siteTitle }) => (
     style={{
       backgroundColor: `RGBA(252, 252, 252, .85)`,
       marginBottom: `1.45rem`,
-      // border: `none`,
       width: `100%`,
-      height: `20vh`,
+      height: `25vh`,
       position: `fixed`,
+      padding: `1.45rem`,
     }}
   >
-
-    <div
-      style={{
-        margin: `0 auto`,
-        maxWidth: 960,
-        padding: `1.45rem 1.0875rem`,
-        position: `relative`,
-      }}
-    >
-      <nav
+    <nav>
+      <h1
         style={{
-          margin: `0 auto`,
+          border: `none`,
+          maxHeight: `15vh`,
         }}
       >
-        <h1
+        <Link
+          to="/"
           style={{
-            border: `none`,
+            display: `flex`,
+            justifyContent: `space-evenly`,
+            textDecoration: `none`,
           }}
         >
-          <Link
-            to="/"
+          <img src={Logo} alt="chasengineering logo"
             style={{
-              display: `flex`,
-              justifyContent: `space-evenly`,
-              textDecoration: `none`,
+              maxWidth: `5rem`,
+              maxHeight: `10 rem`,
             }}
-          >
-            <img src={Logo} alt="chasengineering logo"
-              style={{
-                maxWidth: `5rem`,
-                maxHeight: `10 rem`,
-              }}
-            />
+          />
           &nbsp; &nbsp; &nbsp;
           {siteTitle}
 
-          </Link>
-        </h1>
+        </Link>
+      </h1>
 
-        <h3>
-          <ul
-            style={{
-              display: `flex`,
-              justifyContent: `flex-end`,
-              color: `white`,
-              marginBottom: `1.45rem`,
-              alignContent: `flex-end`,
-              listStyle: `none`,
-            }}
-          >
-            <li><a href="#about" className="navLink">About</a></li>
+      <h4>
+        <ul
+          style={{
+            display: `flex`,
+            justifyContent: `flex-end`,
+            marginBottom: `1.45rem`,
+            alignContent: `flex-end`,
+            listStyle: `none`,
+          }}
+        >
+          <li><a href="#about" className="navLink">About</a></li>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           <li><a href="#projects" className="navLink">Projects</a></li>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           <li><a href="#contact" className="navLink">Contact</a></li>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           <li><a href={Res} className="navLink">Résumé</a></li>
-          </ul>
-        </h3>
-      </nav>
-    </div>
+        </ul>
+      </h4>
+    </nav>
   </header>
 )
 

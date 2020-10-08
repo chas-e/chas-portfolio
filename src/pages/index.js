@@ -26,7 +26,7 @@ const IndexPage = () => (
       <SEO title="chasengineering" />
       <section id="intro"
         style={{
-          minHeight: `100vmin`,
+          minHeight: `75vmin`,
           marginTop: `22vh`,
           padding: `1.45rem`,
         }}
@@ -34,7 +34,7 @@ const IndexPage = () => (
         <h2> H &nbsp; E &nbsp; L &nbsp; L &nbsp; O &nbsp;,
           <br />
           my name is Charles (Chas) Eubanks.</h2>
-        <h3>I am a dynamic & resourceful software engineer committed to building performant & elegant solutions for the web & beyond.</h3>
+        <h3>I am a dynamic and resourceful software engineer committed to building fast, accessible, and elegant solutions for the web and beyond.</h3>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
@@ -47,7 +47,7 @@ const IndexPage = () => (
 
       <section id="about"
         style={{
-          minHeight: `100vmin`,
+          minHeight: `75vmin`,
           margin: `0 auto`,
           padding: `1.45rem`,
         }}
@@ -57,7 +57,7 @@ const IndexPage = () => (
 
       <section id="projects"
         style={{
-          minHeight: `100vmin`,
+          minHeight: `75vmin`,
           margin: `0 auto`,
           padding: `1.45rem`,
         }}
@@ -68,7 +68,7 @@ const IndexPage = () => (
       <section id="contact"
         style={{
           minHeight: `70vmin`,
-          margin: `2rem`,
+          margin: `1rem`,
           padding: `1.45rem`,
         }}
       >
