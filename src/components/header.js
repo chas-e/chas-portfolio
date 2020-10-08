@@ -30,10 +30,13 @@ const Header = ({ siteTitle }) => (
       <nav
         style={{
           margin: `0 auto`,
-          // border: `none`,
         }}
       >
-        <h1>
+        <h1
+          style={{
+            border: `none`,
+          }}
+        >
           <Link
             to="/"
             style={{
