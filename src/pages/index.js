@@ -15,8 +15,8 @@ const IndexPage = () => (
   <Layout>
     <div style={
       {
-        marginBottom: `1.45rem`,
-        padding: `1.5rem`,
+        marginBottom: `3vmin`,
+        padding: `3vmin`,
         maxWidth: `600px`,
         display: `flex`,
         flexDirection: `column`,
@@ -27,13 +27,13 @@ const IndexPage = () => (
       <section id="intro"
         style={{
           minHeight: `75vmin`,
-          marginTop: `22vh`,
-          padding: `1.45rem`,
+          marginTop: `20vmin`,
+          padding: `3vmin`,
         }}
       >
-        <h2> H &nbsp; E &nbsp; L &nbsp; L &nbsp; O &nbsp;,
+        <h1> H &nbsp; E &nbsp; L &nbsp; L &nbsp; O &nbsp;,
           <br />
-          my name is Charles (Chas) Eubanks.</h2>
+          my name is Charles (Chas) Eubanks.</h1>
         <h3>I am a dynamic and resourceful software engineer committed to building fast, accessible, and elegant solutions for the web and beyond.</h3>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
@@ -48,8 +48,8 @@ const IndexPage = () => (
       <section id="about"
         style={{
           minHeight: `75vmin`,
-          margin: `0 auto`,
-          padding: `1.45rem`,
+          margin: `20vmin auto`,
+          padding: `3vmin`,
         }}
       >
         <AboutBlock />
@@ -58,8 +58,8 @@ const IndexPage = () => (
       <section id="projects"
         style={{
           minHeight: `75vmin`,
-          margin: `0 auto`,
-          padding: `1.45rem`,
+          margin: `20vmin auto`,
+          padding: `3vmin`,
         }}
       >
         <ProjectBlock />
@@ -68,8 +68,8 @@ const IndexPage = () => (
       <section id="contact"
         style={{
           minHeight: `70vmin`,
-          margin: `1rem`,
-          padding: `1.45rem`,
+          margin: `20vmin auto`,
+          padding: `3vmin`,
         }}
       >
         <Contact />

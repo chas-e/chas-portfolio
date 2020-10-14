@@ -26,10 +26,8 @@ const ProjectBlock = () => {
                         display: `flex`,
                         flexDirection: `row`,
                         justifyContent: `space-evenly`,
-                        width: `100vmin`,
-                        height: `100vmin`,
-                        margin: `.5rem`,
-                        padding: `1.45rem`,
+                        margin: `3vmin`,
+                        padding: `3vmin`,
                     }}
                 >
                     <a href="https://chas-e.github.io/rijksmuseum-image-viewer">
@@ -99,9 +97,9 @@ const projItems = projectData.map((p, idx) => (
     <ul key={idx} className="projectList" id={`proj${idx + 1}`}
         style={{
             listStyle: `none`,
-            border: `3px solid`,
-            margin: `.5rem`,
-            padding: `1.45rem`,
+            border: `4px solid`,
+            margin: `3vmin`,
+            padding: `3vmin`,
             lineHeight: 1.5,
 
         }}>

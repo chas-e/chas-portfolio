@@ -36,7 +36,7 @@ const Layout = ({ children }) => {
         <main>{children}</main>
 
         <footer>
-          Copyright &copy; ChasEngineering All Rights Reserved {new Date().getFullYear()}, Built with
+          Copyright &copy; chasEngineering | All Rights Reserved {new Date().getFullYear()} | Built with
           {` `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>

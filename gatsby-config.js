@@ -2,8 +2,8 @@ require("dotenv").config()
 
 module.exports = {
   siteMetadata: {
-    title: `chasengineering`,
-    description: `charles eubanks is a dynamic & resourceful software engineer committed to building performant & elegant solutions for the web and beyond.`,
+    title: `chasEngineering`,
+    description: `charles 'chas' eubanks is a dynamic and resourceful software engineer committed to building fast, accessible, and elegant solutions for the web and beyond.`,
     author: `@chas-e`,
     siteUrl: "https://www.chasengineering.dev",
     social: [

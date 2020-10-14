@@ -2,12 +2,19 @@
     display: flex;
     justify-content: space-evenly;
 
+    .nav {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+        max-width: 100vw;
+    }
+
     ul {
         display: flex;
         list-style: none;
 
         li {
-            margin: .9rem;
+            margin: 2vmin;
         }
     }
 }

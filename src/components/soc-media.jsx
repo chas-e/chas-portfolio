@@ -11,8 +11,8 @@ const SocMedia = () => {
                     listStyle: `none`,
                     display: `flex`,
                     flexDirection: `row`,
-                    margin: `1.45rem`,
-                    padding: `1.45rem`,
+                    margin: `4vmin`,
+                    padding: `4vmin`,
                     justifyContent: `space-evenly`,
                 }}
             >
@@ -22,8 +22,8 @@ const SocMedia = () => {
                         <span role="img" aria-label="github link">
                             <img src={Github} alt="github mark"
                                 style={{
-                                    maxWidth: `2rem`,
-                                    maxHeight: `2rem`,
+                                    maxWidth: `6vmin`,
+                                    maxHeight: `6vmin`,
                                     display: `flex`,
                                     flexDirection: `row`,
                                 }}
@@ -36,8 +36,8 @@ const SocMedia = () => {
                         <span role="img" aria-label="linkedin link">
                             <img src={LinkedIn} alt="linkedin logo"
                                 style={{
-                                    maxWidth: `2.5rem`,
-                                    maxHeight: `2rem`,
+                                    maxWidth: `6vmin`,
+                                    maxHeight: `6vmin`,
                                     display: `flex`,
                                     flexDirection: `row`,
                                 }}
@@ -50,8 +50,8 @@ const SocMedia = () => {
                         <span role="img" aria-label="twitter link">
                             <img src={Twitter} alt="twitter logo"
                                 style={{
-                                    width: `3rem`,
-                                    height: `3rem`,
+                                    width: `7vmin`,
+                                    height: `7vmin`,
                                     display: `flex`,
                                     flexDirection: `row`,
                                 }}

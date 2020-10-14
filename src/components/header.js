@@ -11,18 +11,17 @@ const Header = ({ siteTitle }) => (
     className={styles.header}
     style={{
       backgroundColor: `RGBA(252, 252, 252, .85)`,
-      marginBottom: `1.45rem`,
+      marginBottom: `3vmin`,
       width: `100%`,
-      height: `20vh`,
+      maxHeight: `15vmin`,
       position: `fixed`,
-      padding: `1.45rem`,
+      padding: `3vmin`,
     }}
   >
-    <nav>
-      <h1
+    <nav className={styles.nav}>
+      <h2
         style={{
           border: `none`,
-          maxHeight: `15vh`,
         }}
       >
         <Link
@@ -35,23 +34,20 @@ const Header = ({ siteTitle }) => (
         >
           <img src={Logo} alt="chasengineering logo"
             style={{
-              maxWidth: `3rem`,
-              maxHeight: `6 rem`,
+              maxWidth: `7vmin`,
+              maxHeight: `12 vmin`,
             }}
           />
-          &nbsp; &nbsp; &nbsp;
           {siteTitle}
 
         </Link>
-      </h1>
+      </h2>
 
-      <h3>
+      <h4>
         <ul
           style={{
             display: `flex`,
-            justifyContent: `flex-end`,
-            marginBottom: `1.45rem`,
-            alignContent: `flex-end`,
+            marginBottom: `2vmin`,
             listStyle: `none`,
           }}
         >
@@ -63,7 +59,7 @@ const Header = ({ siteTitle }) => (
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           <li><a href={Res} className="navLink">Résumé</a></li>
         </ul>
-      </h3>
+      </h4>
     </nav>
   </header>
 )
