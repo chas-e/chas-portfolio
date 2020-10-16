@@ -3,6 +3,8 @@ import RijksImgView from "../images/rijksmuseum-results-page.png"
 import Spkrbx from "../images/spkrbx-final.png"
 import HbtZn from "../images/habit-zen-final.png"
 import Pycsso from "../images/pycasso-gallery.png"
+import GitHub from "../images/GitHub-Mark-32px.png"
+
 
 const ProjectBlock = function () {
     return (
@@ -16,7 +18,6 @@ const ProjectBlock = function () {
                         display: `flex`,
                         flexDirection: `column`,
                         justifyContent: `space-evenly`,
-                        // width: `100vmin`,
                     }}
                 >
                     {projItems}
@@ -66,16 +67,17 @@ const projItems = projectData.map((p, idx) => (
     <ul key={idx} className="projectList" id={`proj${idx + 1}`}
         style={{
             listStyle: `none`,
-            border: `4px solid`,
             margin: `3vmin`,
             padding: `3vmin`,
-            lineHeight: 1.5,
+            lineHeight: `2.5vmin`,
 
         }}>
-        <li className="projectItem"><strong>Title:</strong> {p.title}</li>
+        <h4>
+            <li className="projectItem"><strong>Title:</strong> {p.title}</li>
+        </h4>
         <li className="projectItem"><strong>Description:</strong> {p.description}</li>
         <li className="projectItem"><strong>Technologies:</strong> {p.technologies}</li>
-        <li className="projectItem"><a href={p.github}>GitHub</a></li>
+        <li className="projectItem"><a href={p.github}><span role="img" aria-label="GitHub Logo and Link"><img src={GitHub} alt="GitHub Link" /></span>GitHub</a></li>
         <li className="projectImage"><a href={p.deployUrl}>{p.image}</a></li>
     </ul>
 ))

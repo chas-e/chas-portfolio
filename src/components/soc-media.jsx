@@ -1,5 +1,5 @@
 import React from 'react'
-import Github from "../images/GitHub-Mark-64px.png"
+import GitHub from "../images/GitHub-Mark-64px.png"
 import LinkedIn from "../images/LI-In-Bug.png"
 import Twitter from "../images/Twitter_Logo_Blue.svg"
 
@@ -20,7 +20,7 @@ const SocMedia = () => {
                 <li>
                     <a href="https://github.com/chas-e">
                         <span role="img" aria-label="github link">
-                            <img src={Github} alt="github mark"
+                            <img src={GitHub} alt="github mark"
                                 style={{
                                     maxWidth: `6vmin`,
                                     maxHeight: `6vmin`,
