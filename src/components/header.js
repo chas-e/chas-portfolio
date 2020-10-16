@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
       backgroundColor: `RGBA(252, 252, 252, .85)`,
       marginBottom: `3vmin`,
       width: `100%`,
-      maxHeight: `10vh`,
+      maxHeight: `12vh`,
       position: `fixed`,
       padding: `3vmin`,
     }}
@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => (
           <img src={Logo} alt="chasengineering logo"
             style={{
               maxWidth: `5vw`,
-              height: `auto`,
+              maxHeight: `8vh`,
             }}
           />
           {siteTitle}
