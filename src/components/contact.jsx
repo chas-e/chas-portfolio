@@ -6,7 +6,7 @@ const Contact = () => {
         <>
             <h2>Reach Out!</h2>
             &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-            <p>I am excited to speak with you about current opportunities, or software engineering in general. Let's grow together.</p>
+            <p>I hope we get a chance to chat about current opportunities, or software engineering in general. Let's grow together.</p>
         &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
 
         </>

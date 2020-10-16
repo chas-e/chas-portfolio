@@ -13,7 +13,7 @@ const Header = ({ siteTitle }) => (
       backgroundColor: `RGBA(252, 252, 252, .85)`,
       marginBottom: `3vmin`,
       width: `100%`,
-      height: `auto`,
+      maxHeight: `15vh`,
       position: `fixed`,
       padding: `3vmin`,
     }}
