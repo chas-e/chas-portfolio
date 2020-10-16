@@ -69,7 +69,7 @@ const projItems = projectData.map((p, idx) => (
             listStyle: `none`,
             margin: `3vmin`,
             padding: `3vmin`,
-            lineHeight: `2.75vmin`,
+            lineHeight: 1.75,
 
         }}>
         <h3>
