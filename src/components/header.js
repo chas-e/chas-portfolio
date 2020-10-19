@@ -35,7 +35,7 @@ const Header = ({ siteTitle }) => (
           <img src={Logo} alt="chasengineering logo"
             style={{
               maxWidth: `5vw`,
-              maxHeight: `8vh`,
+              height: `8vh`,
             }}
           />
           {siteTitle}
@@ -57,7 +57,7 @@ const Header = ({ siteTitle }) => (
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
           <li><a href="#contact" className="navLink">Contact</a></li>
           &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
-          <li><a href={Res} className="navLink">Résumé</a></li>
+          <li><a href={Res} rel="noreferrer" target="_blank" className="navLink">Résumé</a></li>
         </ul>
       </h4>
     </nav>
